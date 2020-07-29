@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BTN_ADD_DIAPASON" xml:space="preserve">
+    <value>Ввести диапазон</value>
+  </data>
+  <data name="BTN_ADD_GROUP_HINT" xml:space="preserve">
+    <value>Добавить группу.</value>
+  </data>
+  <data name="BTN_CALL" xml:space="preserve">
+    <value>Прозвон</value>
+  </data>
+  <data name="BTN_CALL_STOP" xml:space="preserve">
+    <value>Остановить прозвон</value>
+  </data>
+  <data name="BTN_CANCEL" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="BTN_ENTER" xml:space="preserve">
+    <value>Ввести</value>
+  </data>
+  <data name="BTN_NO" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="BTN_OK" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="BTN_OPEN_WORKING_DIRECTORY_HINT" xml:space="preserve">
+    <value>Открыть рабочий каталог.</value>
+  </data>
+  <data name="BTN_REMOVE_GROUP_HINT" xml:space="preserve">
+    <value>Удалить группу.</value>
+  </data>
+  <data name="BTN_SEARCH" xml:space="preserve">
+    <value>Найти</value>
+  </data>
+  <data name="BTN_YES" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="CB_GROUP_FILTER_ALL" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="LOG_CALL_FINISHED" xml:space="preserve">
+    <value>Прозвон закончен.</value>
+  </data>
+  <data name="LOG_CALL_RESTARTED" xml:space="preserve">
+    <value>Прозвон закончен. Запускаем повторно.</value>
+  </data>
+  <data name="LOG_NOTIFICATION_FINISHED" xml:space="preserve">
+    <value>Отправка {0} уведомлений завершена.</value>
+  </data>
+  <data name="LOG_NUMBER_BLACKLISTED" xml:space="preserve">
+    <value>Ошибка. Номер {0} попал в black list. Время набора: {1} сек. Время ожидания: {2} сек.</value>
+  </data>
+  <data name="LOG_NUMBER_ERROR" xml:space="preserve">
+    <value>Ошибка при обработке номера {0}. Время набора: {1} сек. Время ожидания: {2} сек.</value>
+  </data>
+  <data name="LOG_NUMBER_NO_ANSWER_MODEM" xml:space="preserve">
+    <value>Ошибка. Модем не ответил на команду. Время набора: {1} сек. Время ожидания: {2} сек.</value>
+  </data>
+  <data name="LOG_NUMBER_PROCESSED" xml:space="preserve">
+    <value>Обработан номер {0}. Время набора: {1} сек. Время ожидания: {2} сек.</value>
+  </data>
+  <data name="LOG_STATISTICS" xml:space="preserve">
+    <value>Обработано: {0}. Найдено: {1}.</value>
+  </data>
+  <data name="LST_DOUBLE_CHECK_ON_TIMEOUT" xml:space="preserve">
+    <value>Двойная проверка</value>
+  </data>
+  <data name="LST_DOUBLE_CHECK_ON_TIMEOUT_HINT" xml:space="preserve">
+    <value>Включает режим двойной проверки номера, если он определился опцией '{0}'.\nНеобходим для случаев, когда у оператора происходит нестабильное соединение с задержкой по времени.</value>
+  </data>
+  <data name="LST_GROUP_NAME" xml:space="preserve">
+    <value>Группа</value>
+  </data>
+  <data name="LST_GROUP_NAME_HINT" xml:space="preserve">
+    <value>Группа телефонов оператора, которую необходимо прозванивать.</value>
+  </data>
+  <data name="LST_GROUP_NAME_NEW" xml:space="preserve">
+    <value>Новая группа</value>
+  </data>
+  <data name="LST_NOTIFICATION_TYPE" xml:space="preserve">
+    <value>Тип уведомления</value>
+  </data>
+  <data name="LST_NOTIFICATION_TYPE_HINT" xml:space="preserve">
+    <value>Выберите тип уведомления успешно найденного активированного номера телефона.</value>
+  </data>
+  <data name="LST_SMS_RECIPIENT" xml:space="preserve">
+    <value>Номер SMS</value>
+  </data>
+  <data name="LST_SMS_RECIPIENT_HINT" xml:space="preserve">
+    <value>Номер мобильного, на который будут приходить SMS при определении активированного телефона группы.</value>
+  </data>
+  <data name="LST_SMS_TEXT" xml:space="preserve">
+    <value>Текст SMS</value>
+  </data>
+  <data name="LST_SMS_TEXT_HINT" xml:space="preserve">
+    <value>Текст SMS при прозвоне телефонов группы.\nИспользуйте %PHONE% для вставки в текст сообщения номера, который определился, как активированный.</value>
+  </data>
+  <data name="LST_TELEPHONES_COMMENT" xml:space="preserve">
+    <value>Комментарий</value>
+  </data>
+  <data name="LST_TELEPHONES_DATE" xml:space="preserve">
+    <value>Дата ввода</value>
+  </data>
+  <data name="LST_TELEPHONES_DATE_ACTIVATION" xml:space="preserve">
+    <value>Дата активации</value>
+  </data>
+  <data name="LST_TELEPHONES_NUMBER" xml:space="preserve">
+    <value>Номер телефона</value>
+  </data>
+  <data name="LST_USSD_TEXT" xml:space="preserve">
+    <value>Текст USSD</value>
+  </data>
+  <data name="LST_USSD_TEXT_HINT" xml:space="preserve">
+    <value>Текст USSD запроса для найденного активированного телефона группы.\nИспользуйте %PHONE% для вставки в текст сообщения номера, который определился, как активированный.</value>
+  </data>
+  <data name="LST_WAIT_ANSWER" xml:space="preserve">
+    <value>Ожидание ответа</value>
+  </data>
+  <data name="LST_WAIT_ANSWER_HINT" xml:space="preserve">
+    <value>Время ожидания завершения госового ответа 'номер не обслуживается' в секундах.\nНеобходим для отделения от таких ответов как 'номер вне зоны действия' и др.\nВыделяет найденный активированный телефон желтым цветом.</value>
+  </data>
+  <data name="L_ALL_RIGHTS_RESERVED" xml:space="preserve">
+    <value>Все права защищены.</value>
+  </data>
+  <data name="L_COPYRIGHT" xml:space="preserve">
+    <value>© Taycoon, 2012.</value>
+  </data>
+  <data name="L_ENTER_SEARCHED_PHONE" xml:space="preserve">
+    <value>Введите номер телефона:</value>
+  </data>
+  <data name="L_GROUP_FILTER" xml:space="preserve">
+    <value>Фильтр по группам</value>
+  </data>
+  <data name="L_PLAY_SOUND" xml:space="preserve">
+    <value>Проигрывать звук</value>
+  </data>
+  <data name="L_PLAY_SOUND_HINT" xml:space="preserve">
+    <value>Проигрывать звуковое сообщение при окончании прозвона.\nДля использования проверьте, что динамики включены.</value>
+  </data>
+  <data name="L_PORT" xml:space="preserve">
+    <value>Порт</value>
+  </data>
+  <data name="L_PORT_HINT" xml:space="preserve">
+    <value>Номер COM порта, через который подключен мобильный телефон.\nПри подключении телефона через USB шнур в операционной системе создаеся виртуальный COM порт.</value>
+  </data>
+  <data name="L_PORT_INFORMATION_MODEM_NOT_ANSWERED" xml:space="preserve">
+    <value>Модем не отвечает на команды.</value>
+  </data>
+  <data name="L_PORT_INFORMATION_MODEM_NOT_SELECTED" xml:space="preserve">
+    <value>Модем для работы не выбран.</value>
+  </data>
+  <data name="L_PORT_INFORMATION_MODEM_SELECTED" xml:space="preserve">
+    <value>Модем подключен.</value>
+  </data>
+  <data name="L_PORT_RATE" xml:space="preserve">
+    <value>Скорость порта</value>
+  </data>
+  <data name="L_PORT_RATE_HINT" xml:space="preserve">
+    <value>Скорость порта.\nОтображается для вашего модема в Диспетчере устройств.</value>
+  </data>
+  <data name="L_PROGRAM_VERSION" xml:space="preserve">
+    <value>Версия программы MobileCaller : {0}</value>
+  </data>
+  <data name="L_REGISTERED_ACTIVATION_KEY" xml:space="preserve">
+    <value>Введите код активации</value>
+  </data>
+  <data name="L_REGISTERED_EMAIL" xml:space="preserve">
+    <value>Введите e-mail</value>
+  </data>
+  <data name="L_REGISTERED_IMEI" xml:space="preserve">
+    <value>Введите IMEI код</value>
+  </data>
+  <data name="L_REGISTERED_USER" xml:space="preserve">
+    <value>Пользователь</value>
+  </data>
+  <data name="L_REGISTRATION_INVITATION" xml:space="preserve">
+    <value>Введите регистрационные данные и полученный код активации</value>
+  </data>
+  <data name="L_REGISTRATION_WARNING" xml:space="preserve">
+    <value>Внимание! Код активации распространяется только для одного IMEI мобильного телефона. В случае, если вам необходимо работать с несколькими мобильными телефонами, используйте нескольких экземпляров программ с установленной лицензией для каждого мобильного устройства.</value>
+  </data>
+  <data name="L_REPEATABLE" xml:space="preserve">
+    <value>Непрерывный</value>
+  </data>
+  <data name="L_REPEATABLE_HINT" xml:space="preserve">
+    <value>Включает режим непрерывно повторяемого прозвона.\nПри окончании прозвона, он запускается повторно.</value>
+  </data>
+  <data name="L_SEND_NOTIFICATION" xml:space="preserve">
+    <value>Отправлять уведомление</value>
+  </data>
+  <data name="L_SEND_NOTIFICATION_HINT" xml:space="preserve">
+    <value>Отправлять уведомление (SMS или USSD)  во время прозвона в случае,\nесли программа определила номер, как активированный.</value>
+  </data>
+  <data name="L_SHUTDOWN" xml:space="preserve">
+    <value>Выключить компьютер</value>
+  </data>
+  <data name="L_SHUTDOWN_HINT" xml:space="preserve">
+    <value>Выключить компьютер после завершения прозвона, предварительно закрыв программу с сохранением всех изменений.</value>
+  </data>
+  <data name="L_USER" xml:space="preserve">
+    <value>Ознакомительная версия</value>
+  </data>
+  <data name="L_WAIT_CALL" xml:space="preserve">
+    <value>Задержка прозвона</value>
+  </data>
+  <data name="L_WAIT_CALL_HINT" xml:space="preserve">
+    <value>Время задержки между звонками и отправкой уведомлений (в секундах).\nИспользуется, если оператор блокирует карточку, определяя номер как подозрительный.</value>
+  </data>
+  <data name="L_WORKING_DIRECTORY" xml:space="preserve">
+    <value>Рабочий каталог</value>
+  </data>
+  <data name="L_WORKING_DIRECTORY_HINT" xml:space="preserve">
+    <value>Папка, содержащая файлы логгирования программы\nв формате Log&lt;Год&gt;_&lt;Месяц&gt;_&lt;День&gt;.txt,\nа также файл регистрации и настройки программы вместе с базой телефонов.</value>
+  </data>
+  <data name="MI_ABOUT" xml:space="preserve">
+    <value>О программе...</value>
+  </data>
+  <data name="MI_CALL_LATEST" xml:space="preserve">
+    <value>Прозвонить оставшиеся</value>
+  </data>
+  <data name="MI_CALL_SELECTED" xml:space="preserve">
+    <value>Прозвонить выделенные</value>
+  </data>
+  <data name="MI_COPY_TO_CLIPBOARD" xml:space="preserve">
+    <value>Скопировать в буффер</value>
+  </data>
+  <data name="MI_DELETE_SELECTED" xml:space="preserve">
+    <value>Удалить выделенные</value>
+  </data>
+  <data name="MI_EDIT" xml:space="preserve">
+    <value>Правка</value>
+  </data>
+  <data name="MI_EXIT" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="MI_FILE" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="MI_HELP" xml:space="preserve">
+    <value>Вызов справки</value>
+  </data>
+  <data name="MI_IMPORT" xml:space="preserve">
+    <value>Подгрузить номера</value>
+  </data>
+  <data name="MI_INFORMATION" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="MI_LANGUAGE" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="MI_LANGUAGE_ENGLISH" xml:space="preserve">
+    <value>Английский</value>
+  </data>
+  <data name="MI_LANGUAGE_RUSSIAN" xml:space="preserve">
+    <value>Русский</value>
+  </data>
+  <data name="MI_LANGUAGE_UKRAINE" xml:space="preserve">
+    <value>Украинский</value>
+  </data>
+  <data name="MI_LOG" xml:space="preserve">
+    <value>Журнал</value>
+  </data>
+  <data name="MI_REGISTRATION" xml:space="preserve">
+    <value>Регистрация</value>
+  </data>
+  <data name="MI_RESET_ACTIVATION_SELECTED" xml:space="preserve">
+    <value>Сбросить активацию</value>
+  </data>
+  <data name="MI_SAVE" xml:space="preserve">
+    <value>Сохранить изменения</value>
+  </data>
+  <data name="MI_SEARCH" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="MI_SELECT_ACTIVATED" xml:space="preserve">
+    <value>Выделить активированные номера</value>
+  </data>
+  <data name="MI_SEND_NOTIFICATION" xml:space="preserve">
+    <value>Отправить уведомление</value>
+  </data>
+  <data name="MI_SETTINGS" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="MI_SETTINGS_CALL" xml:space="preserve">
+    <value>Настройки прозвона</value>
+  </data>
+  <data name="MI_SETTINGS_MODEM" xml:space="preserve">
+    <value>Настройки модема</value>
+  </data>
+  <data name="MI_SET_ACTIVATION_SELECTED" xml:space="preserve">
+    <value>Установить активацию</value>
+  </data>
+  <data name="MI_VIEW" xml:space="preserve">
+    <value>Окна</value>
+  </data>
+  <data name="MSG_ACTIVATED_NUMBER" xml:space="preserve">
+    <value>Прозваниваемый номер {0} был успешно определен как активированный.</value>
+  </data>
+  <data name="MSG_COMMAND_EXECUTED" xml:space="preserve">
+    <value>Выполнена команда: {0}</value>
+  </data>
+  <data name="MSG_COMMAND_RESPONSE_AT" xml:space="preserve">
+    <value>Ответ модема на AT комманду:{0}</value>
+  </data>
+  <data name="MSG_COMMAND_RESPONSE_CODE" xml:space="preserve">
+    <value>Полученный код ответа: {0}</value>
+  </data>
+  <data name="MSG_COMMAND_RESPONSE_CODE_CEND" xml:space="preserve">
+    <value>Полученный код ответа CEND: {0}</value>
+  </data>
+  <data name="MSG_COMMAND_RESPONSE_CODE_CHANGED" xml:space="preserve">
+    <value>Полученный код ответа изменен на: {0}</value>
+  </data>
+  <data name="MSG_COMMAND_RESPONSE_CODE_CLCC" xml:space="preserve">
+    <value>Полученный код ответа CLCC: {0}</value>
+  </data>
+  <data name="MSG_COMMAND_RESPONSE_CODE_CPAS" xml:space="preserve">
+    <value>Полученный код ответа CPAS: {0}</value>
+  </data>
+  <data name="MSG_COMMAND_SMS_EXECUTING" xml:space="preserve">
+    <value>Отправка СМС для телефона: {0}</value>
+  </data>
+  <data name="MSG_COMMAND_USSD_EXECUTING" xml:space="preserve">
+    <value>Отправка USSD команды для телефона: {0}</value>
+  </data>
+  <data name="MSG_COM_PORT_OR_MOBILE_ERROR" xml:space="preserve">
+    <value>Com-порт настроен неверно или мобильный не подключен.</value>
+  </data>
+  <data name="MSG_DELETE_SELECTED_CONFIRMATION" xml:space="preserve">
+    <value>Вы действительно хотите удалить {0} выделенные номера телефонов из списка?</value>
+  </data>
+  <data name="MSG_DELETION_TITLE" xml:space="preserve">
+    <value>Удаление</value>
+  </data>
+  <data name="MSG_DIAPASON_EMPTY" xml:space="preserve">
+    <value>Введите диапазон.</value>
+  </data>
+  <data name="MSG_ERROR_MODEM_TITLE" xml:space="preserve">
+    <value>Ошибка работы с модемом.</value>
+  </data>
+  <data name="MSG_FIELD_EMPTY" xml:space="preserve">
+    <value>Заполните поле '{0}'.</value>
+  </data>
+  <data name="MSG_FIELD_NOT_NUMBER" xml:space="preserve">
+    <value>Поле '{0}' должно быть числом.</value>
+  </data>
+  <data name="MSG_FIELD_WRONG_FORMAT" xml:space="preserve">
+    <value>Поле '{0}' заполнено в неправильном формате.</value>
+  </data>
+  <data name="MSG_FILE_WAS_NOT_CREATED" xml:space="preserve">
+    <value>Ошибка создания файла {0}. Возможно отсутствуют необходимые права пользователя.</value>
+  </data>
+  <data name="MSG_FOLDER_BROWSER_DIALOG_TITLE" xml:space="preserve">
+    <value>Выберите папку</value>
+  </data>
+  <data name="MSG_IMEI_NOT_SUPPORTED" xml:space="preserve">
+    <value>Данный мобильный телефон не поддерживает работу с IMEI, пожалуйста воспользуйтесь другим телефоном для работы с программой.</value>
+  </data>
+  <data name="MSG_INFORMATION_TITLE" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="MSG_INTRODUCTORY_VERSION" xml:space="preserve">
+    <value>Вы используете ознакомительную версию, в которой вы можете прозвонить не более 5-ти номеров за один запуск программы.\nПожалуйста, зарегистрируйте программу.</value>
+  </data>
+  <data name="MSG_LOG_SETTINGS" xml:space="preserve">
+    <value>Список текущих настроек прозвона:</value>
+  </data>
+  <data name="MSG_MODEM_PORT_RESET" xml:space="preserve">
+    <value>Переподключение к COM порту модема.</value>
+  </data>
+  <data name="MSG_MODEM_WORK_COMPLETED" xml:space="preserve">
+    <value>Работа с модемом завершена.</value>
+  </data>
+  <data name="MSG_NUMBER_DUPLICATED" xml:space="preserve">
+    <value>Номер телефона {0} уже присутствует в базе и будет пропущен. Продолжить процесс добавления номеров?</value>
+  </data>
+  <data name="MSG_NUMBER_INVALID_FORMAT" xml:space="preserve">
+    <value>Номер телефона {0} неверного формата и будет пропущен. Он должен содержать число из более чем 5 цифр. Продолжить процесс добавления номеров?</value>
+  </data>
+  <data name="MSG_PROGRAM_DATA_CHANGED" xml:space="preserve">
+    <value>Во время работы программы произошли изменения. Вы хотите их сохранить?</value>
+  </data>
+  <data name="MSG_REGISTRATION_SUCCESSFUL" xml:space="preserve">
+    <value>Спасибо за регистрацию программы!</value>
+  </data>
+  <data name="MSG_REGISTRATION_WRONG" xml:space="preserve">
+    <value>Ключ неверный!</value>
+  </data>
+  <data name="MSG_SAVE_TITLE" xml:space="preserve">
+    <value>Сохранение</value>
+  </data>
+  <data name="MSG_SELECT_TEXT_FILE_EXT" xml:space="preserve">
+    <value>Текстовые документы (*.txt)|*.txt|Все файлы (*.*)|*.*</value>
+  </data>
+  <data name="MSG_SELECT_TEXT_FILE_TITLE" xml:space="preserve">
+    <value>Выберите текстовый файл</value>
+  </data>
+  <data name="MSG_SMS_NOT_SUPPORTED" xml:space="preserve">
+    <value>Модем не поддерживает отправку SMS. Отключите режим отправки во время прозвона.</value>
+  </data>
+  <data name="MSG_SYSTEM_ERROR_TITLE" xml:space="preserve">
+    <value>Системная ошибка</value>
+  </data>
+  <data name="MSG_USSD_NOT_SUPPORTED" xml:space="preserve">
+    <value>Модем не поддерживает отправку USSD. Отключите режим отправки во время прозвона.</value>
+  </data>
+  <data name="MSG_WAIT_ANSWER_LIMIT" xml:space="preserve">
+    <value>Поле '{0}' должно хранить значение не менее {1} секунд.</value>
+  </data>
+  <data name="MSG_WAIT_CALL_LIMIT" xml:space="preserve">
+    <value>Опция '{0}' должна хранить значение не менее {1} секунд.</value>
+  </data>
+  <data name="MSG_WARNING_TITLE" xml:space="preserve">
+    <value>Предупреждение</value>
+  </data>
+  <data name="MSG_WRONG_IMEI_REGISTRATION" xml:space="preserve">
+    <value>Уважаемый {0}. Ваша регистрация распространется только на IMEI мобильного телефона: {1}.</value>
+  </data>
+  <data name="STAT_SESSION_ACTIVATED_COUNT" xml:space="preserve">
+    <value>Количество найденных активированных номеров: {0}</value>
+  </data>
+  <data name="STAT_SESSION_HEADER" xml:space="preserve">
+    <value>Состояние сессии прозвона:</value>
+  </data>
+  <data name="STAT_SESSION_PROCESSED_COUNT" xml:space="preserve">
+    <value>Количество обработанных номеров: {0}</value>
+  </data>
+  <data name="STAT_SESSION_REMAINED_COUNT" xml:space="preserve">
+    <value>Количество оставшихся номеров: {0}</value>
+  </data>
+  <data name="STAT_SESSION_REMAINED_TIME" xml:space="preserve">
+    <value>Время: {0:D2}:{1:D2}</value>
+  </data>
+  <data name="STAT_TELEPHONE_ACTIVATED_COUNT" xml:space="preserve">
+    <value>Активированных: {0}</value>
+  </data>
+  <data name="STAT_TELEPHONE_COUNT" xml:space="preserve">
+    <value>Количество телефонов: {0}</value>
+  </data>
+  <data name="WND_ABOUT_FORM_TITLE" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="WND_CALL_SETTINGS_FORM_TITLE" xml:space="preserve">
+    <value>Настройки прозвона</value>
+  </data>
+  <data name="WND_COMMENT_FORM_TITLE" xml:space="preserve">
+    <value>Комментарий для номера телефона: {0}</value>
+  </data>
+  <data name="WND_KEY_FORM_TITLE" xml:space="preserve">
+    <value>Ввод ключа</value>
+  </data>
+  <data name="WND_MAIN_FORM_TITLE" xml:space="preserve">
+    <value>Определение активированных номеров</value>
+  </data>
+  <data name="WND_MODEM_SETTINGS_FORM_TITLE" xml:space="preserve">
+    <value>Настройки модема</value>
+  </data>
+  <data name="WND_SEARCH_FORM_TITLE" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+</root>

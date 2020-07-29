@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BTN_ADD_DIAPASON" xml:space="preserve">
+    <value>Add diapason</value>
+  </data>
+  <data name="BTN_ADD_GROUP_HINT" xml:space="preserve">
+    <value>Add group.</value>
+  </data>
+  <data name="BTN_CALL" xml:space="preserve">
+    <value>Calling</value>
+  </data>
+  <data name="BTN_CALL_STOP" xml:space="preserve">
+    <value>Stop calling</value>
+  </data>
+  <data name="BTN_CANCEL" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="BTN_ENTER" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="BTN_NO" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="BTN_OK" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="BTN_OPEN_WORKING_DIRECTORY_HINT" xml:space="preserve">
+    <value>Open working directory</value>
+  </data>
+  <data name="BTN_REMOVE_GROUP_HINT" xml:space="preserve">
+    <value>Remove Group</value>
+  </data>
+  <data name="BTN_SEARCH" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="BTN_YES" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="CB_GROUP_FILTER_ALL" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="LOG_CALL_FINISHED" xml:space="preserve">
+    <value>Call process is finished.</value>
+  </data>
+  <data name="LOG_CALL_RESTARTED" xml:space="preserve">
+    <value>Call process is finished. Restarted.</value>
+  </data>
+  <data name="LOG_NOTIFICATION_FINISHED" xml:space="preserve">
+    <value>The {0} notifications are sent.</value>
+  </data>
+  <data name="LOG_NUMBER_BLACKLISTED" xml:space="preserve">
+    <value>Error. Number {0} was sent in black list. Dialing time: {1}. Ringing time: {2}.</value>
+  </data>
+  <data name="LOG_NUMBER_ERROR" xml:space="preserve">
+    <value>Error occured at processing of number {0}. Dialing time: {1}. Ringing time: {2}.</value>
+  </data>
+  <data name="LOG_NUMBER_NO_ANSWER_MODEM" xml:space="preserve">
+    <value>Error. Modem is not answered on command. Dialing time: {1}. Ringing time: {2}.</value>
+  </data>
+  <data name="LOG_NUMBER_PROCESSED" xml:space="preserve">
+    <value>Number {0} is processed. Dialing time: {1}. Ringing time: {2}.</value>
+  </data>
+  <data name="LOG_STATISTICS" xml:space="preserve">
+    <value>Processed: {0}. Found: {1}.</value>
+  </data>
+  <data name="LST_DOUBLE_CHECK_ON_TIMEOUT" xml:space="preserve">
+    <value>Double check</value>
+  </data>
+  <data name="LST_DOUBLE_CHECK_ON_TIMEOUT_HINT" xml:space="preserve">
+    <value>Enables double check of phone number in case it was found as activated by mode '{0}'.\nIt is required when connection through mobile operator line has interruption by time and is not stable.</value>
+  </data>
+  <data name="LST_GROUP_NAME" xml:space="preserve">
+    <value>Group name</value>
+  </data>
+  <data name="LST_GROUP_NAME_HINT" xml:space="preserve">
+    <value>Group name of operator which should be called through.</value>
+  </data>
+  <data name="LST_GROUP_NAME_NEW" xml:space="preserve">
+    <value>New group name</value>
+  </data>
+  <data name="LST_NOTIFICATION_TYPE" xml:space="preserve">
+    <value>Notification type</value>
+  </data>
+  <data name="LST_NOTIFICATION_TYPE_HINT" xml:space="preserve">
+    <value>Choose notification type which will be used for activated phone number found.</value>
+  </data>
+  <data name="LST_SMS_RECIPIENT" xml:space="preserve">
+    <value>SMS number</value>
+  </data>
+  <data name="LST_SMS_RECIPIENT_HINT" xml:space="preserve">
+    <value>Phone number which needs to be recipient of SMS for activated number from group number list.</value>
+  </data>
+  <data name="LST_SMS_TEXT" xml:space="preserve">
+    <value>Text of SMS</value>
+  </data>
+  <data name="LST_SMS_TEXT_HINT" xml:space="preserve">
+    <value>Text of SMS sent after number is activated.\nUse %PHONE% template to substitute it in the text by the number to be called.</value>
+  </data>
+  <data name="LST_TELEPHONES_COMMENT" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="LST_TELEPHONES_DATE" xml:space="preserve">
+    <value>Input date</value>
+  </data>
+  <data name="LST_TELEPHONES_DATE_ACTIVATION" xml:space="preserve">
+    <value>Activation date</value>
+  </data>
+  <data name="LST_TELEPHONES_NUMBER" xml:space="preserve">
+    <value>Phone number</value>
+  </data>
+  <data name="LST_USSD_TEXT" xml:space="preserve">
+    <value>Text of USSD request</value>
+  </data>
+  <data name="LST_USSD_TEXT_HINT" xml:space="preserve">
+    <value>Text of USSD sent after number is activated.\nUse %PHONE% template to substitute it in the text by the number to be called.</value>
+  </data>
+  <data name="LST_WAIT_ANSWER" xml:space="preserve">
+    <value>Wait answer</value>
+  </data>
+  <data name="LST_WAIT_ANSWER_HINT" xml:space="preserve">
+    <value>Wait answer in seconds of ending call response 'Number is not serviced'.\nIt's needed to distinguish such answers like 'Number is out of zone', etc.\nSets the yellow color for activated phone number found.</value>
+  </data>
+  <data name="L_ALL_RIGHTS_RESERVED" xml:space="preserve">
+    <value>All rights reserved.</value>
+  </data>
+  <data name="L_COPYRIGHT" xml:space="preserve">
+    <value>Copyright © 2012-2014 Taycoon</value>
+  </data>
+  <data name="L_ENTER_SEARCHED_PHONE" xml:space="preserve">
+    <value>Enter number to search:</value>
+  </data>
+  <data name="L_GROUP_FILTER" xml:space="preserve">
+    <value>Group filter</value>
+  </data>
+  <data name="L_PLAY_SOUND" xml:space="preserve">
+    <value>Play sound</value>
+  </data>
+  <data name="L_PLAY_SOUND_HINT" xml:space="preserve">
+    <value>Play sound when call is finished.\nPlease check that sound is turned on your operation system.</value>
+  </data>
+  <data name="L_PORT" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="L_PORT_HINT" xml:space="preserve">
+    <value>Com port number, to what mobile phone is connected.\nOperation system uses virtual Com port for mobile connections through USB.</value>
+  </data>
+  <data name="L_PORT_INFORMATION_MODEM_NOT_ANSWERED" xml:space="preserve">
+    <value>Modem is not responding on AT commands.</value>
+  </data>
+  <data name="L_PORT_INFORMATION_MODEM_NOT_SELECTED" xml:space="preserve">
+    <value>There is no selected modem to work with.</value>
+  </data>
+  <data name="L_PORT_INFORMATION_MODEM_SELECTED" xml:space="preserve">
+    <value>Modem is ready to work.</value>
+  </data>
+  <data name="L_PORT_RATE" xml:space="preserve">
+    <value>Baud rate</value>
+  </data>
+  <data name="L_PORT_RATE_HINT" xml:space="preserve">
+    <value>Com port baud rate.\nIt's presented in 'Device Manager' for your modem of mobile phone.</value>
+  </data>
+  <data name="L_PROGRAM_VERSION" xml:space="preserve">
+    <value>Version of MobileCaller : {0}</value>
+  </data>
+  <data name="L_REGISTERED_ACTIVATION_KEY" xml:space="preserve">
+    <value>Enter activation key</value>
+  </data>
+  <data name="L_REGISTERED_EMAIL" xml:space="preserve">
+    <value>Enter e-mail</value>
+  </data>
+  <data name="L_REGISTERED_IMEI" xml:space="preserve">
+    <value>Enter IMEI</value>
+  </data>
+  <data name="L_REGISTERED_USER" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="L_REGISTRATION_INVITATION" xml:space="preserve">
+    <value>Please enter registration data and received activation key</value>
+  </data>
+  <data name="L_REGISTRATION_WARNING" xml:space="preserve">
+    <value>Attention! Activation key is applied to one IMEI of mobile phone. In case you need to work with several mobile phones you should start several program instances with each licence owned by special mobile phone.</value>
+  </data>
+  <data name="L_REPEATABLE" xml:space="preserve">
+    <value>Repeatable</value>
+  </data>
+  <data name="L_REPEATABLE_HINT" xml:space="preserve">
+    <value>Enable repeatable mode of call.\nStart call process again when current one is finished.</value>
+  </data>
+  <data name="L_SEND_NOTIFICATION" xml:space="preserve">
+    <value>Send notification</value>
+  </data>
+  <data name="L_SEND_NOTIFICATION_HINT" xml:space="preserve">
+    <value>Send notification (SMS or USSD) after successfully activated phone number.</value>
+  </data>
+  <data name="L_SHUTDOWN" xml:space="preserve">
+    <value>Shutdown PC</value>
+  </data>
+  <data name="L_SHUTDOWN_HINT" xml:space="preserve">
+    <value>Shutdown PC after call is finished with preceding saving all changes and exit from application.</value>
+  </data>
+  <data name="L_USER" xml:space="preserve">
+    <value>Introductory version</value>
+  </data>
+  <data name="L_WAIT_CALL" xml:space="preserve">
+    <value>Wait call</value>
+  </data>
+  <data name="L_WAIT_CALL_HINT" xml:space="preserve">
+    <value>The time to wait in seconds between calls and sending of notifications.\nIt is used in case when operator blocks card, thinking that it's behaviour is suspicious.</value>
+  </data>
+  <data name="L_WORKING_DIRECTORY" xml:space="preserve">
+    <value>Working directory</value>
+  </data>
+  <data name="L_WORKING_DIRECTORY_HINT" xml:space="preserve">
+    <value>Directory containing logging files of program\nin the format of Log&lt;Year&gt;_&lt;Month&gt;_&lt;Day&gt;.txt,\nregistering file and settings with base of phones.</value>
+  </data>
+  <data name="MI_ABOUT" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="MI_CALL_LATEST" xml:space="preserve">
+    <value>Call latest</value>
+  </data>
+  <data name="MI_CALL_SELECTED" xml:space="preserve">
+    <value>Call selected</value>
+  </data>
+  <data name="MI_COPY_TO_CLIPBOARD" xml:space="preserve">
+    <value>Copy to clipboard</value>
+  </data>
+  <data name="MI_DELETE_SELECTED" xml:space="preserve">
+    <value>Delete selected</value>
+  </data>
+  <data name="MI_EDIT" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="MI_EXIT" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="MI_FILE" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="MI_HELP" xml:space="preserve">
+    <value>View Help</value>
+  </data>
+  <data name="MI_IMPORT" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="MI_INFORMATION" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="MI_LANGUAGE" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="MI_LANGUAGE_ENGLISH" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="MI_LANGUAGE_RUSSIAN" xml:space="preserve">
+    <value>Russian</value>
+  </data>
+  <data name="MI_LANGUAGE_UKRAINE" xml:space="preserve">
+    <value>Ukraine</value>
+  </data>
+  <data name="MI_LOG" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="MI_REGISTRATION" xml:space="preserve">
+    <value>Registration</value>
+  </data>
+  <data name="MI_RESET_ACTIVATION_SELECTED" xml:space="preserve">
+    <value>Reset activation</value>
+  </data>
+  <data name="MI_SAVE" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="MI_SEARCH" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="MI_SELECT_ACTIVATED" xml:space="preserve">
+    <value>Select activated numbers</value>
+  </data>
+  <data name="MI_SEND_NOTIFICATION" xml:space="preserve">
+    <value>Send notification</value>
+  </data>
+  <data name="MI_SETTINGS" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="MI_SETTINGS_CALL" xml:space="preserve">
+    <value>Call settings</value>
+  </data>
+  <data name="MI_SETTINGS_MODEM" xml:space="preserve">
+    <value>Modem settings</value>
+  </data>
+  <data name="MI_SET_ACTIVATION_SELECTED" xml:space="preserve">
+    <value>Set activation</value>
+  </data>
+  <data name="MI_VIEW" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="MSG_ACTIVATED_NUMBER" xml:space="preserve">
+    <value>The called number {0} was successfully defined as activated.</value>
+  </data>
+  <data name="MSG_COMMAND_EXECUTED" xml:space="preserve">
+    <value>Executed command: {0}</value>
+  </data>
+  <data name="MSG_COMMAND_RESPONSE_AT" xml:space="preserve">
+    <value>Response of modem on AT command:{0}</value>
+  </data>
+  <data name="MSG_COMMAND_RESPONSE_CODE" xml:space="preserve">
+    <value>Responsed code: {0}</value>
+  </data>
+  <data name="MSG_COMMAND_RESPONSE_CODE_CEND" xml:space="preserve">
+    <value>Responsed code of CEND: {0}</value>
+  </data>
+  <data name="MSG_COMMAND_RESPONSE_CODE_CHANGED" xml:space="preserve">
+    <value>Responsed code changed on: {0}</value>
+  </data>
+  <data name="MSG_COMMAND_RESPONSE_CODE_CLCC" xml:space="preserve">
+    <value>Responsed code of CLCC: {0}</value>
+  </data>
+  <data name="MSG_COMMAND_RESPONSE_CODE_CPAS" xml:space="preserve">
+    <value>Responsed code of CPAS: {0}</value>
+  </data>
+  <data name="MSG_COMMAND_SMS_EXECUTING" xml:space="preserve">
+    <value>Sending SMS for calling phone: {0}</value>
+  </data>
+  <data name="MSG_COMMAND_USSD_EXECUTING" xml:space="preserve">
+    <value>Sending USSD for calling phone: {0}</value>
+  </data>
+  <data name="MSG_COM_PORT_OR_MOBILE_ERROR" xml:space="preserve">
+    <value>Com-port has wrong setup or mobile phone is not connected.</value>
+  </data>
+  <data name="MSG_DELETE_SELECTED_CONFIRMATION" xml:space="preserve">
+    <value>Are you sure in deleting {0} of selected phone numbers from the list?</value>
+  </data>
+  <data name="MSG_DELETION_TITLE" xml:space="preserve">
+    <value>Deleting</value>
+  </data>
+  <data name="MSG_DIAPASON_EMPTY" xml:space="preserve">
+    <value>Add diapason.</value>
+  </data>
+  <data name="MSG_ERROR_MODEM_TITLE" xml:space="preserve">
+    <value>Error at working with modem.</value>
+  </data>
+  <data name="MSG_FIELD_EMPTY" xml:space="preserve">
+    <value>Fill the field '{0}'.</value>
+  </data>
+  <data name="MSG_FIELD_NOT_NUMBER" xml:space="preserve">
+    <value>Field '{0}' should be a number.</value>
+  </data>
+  <data name="MSG_FIELD_WRONG_FORMAT" xml:space="preserve">
+    <value>Field '{0}' should be in correct format.</value>
+  </data>
+  <data name="MSG_FILE_WAS_NOT_CREATED" xml:space="preserve">
+    <value>File {0} was not created. It is possible that user doesn't have corresponding rights.</value>
+  </data>
+  <data name="MSG_FOLDER_BROWSER_DIALOG_TITLE" xml:space="preserve">
+    <value>Select directory</value>
+  </data>
+  <data name="MSG_IMEI_NOT_SUPPORTED" xml:space="preserve">
+    <value>The mobile phone doesn't support work with IMEI. Please use another one to start working with program.</value>
+  </data>
+  <data name="MSG_INFORMATION_TITLE" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="MSG_INTRODUCTORY_VERSION" xml:space="preserve">
+    <value>You are using introductory version where you can call at least 5 numbers at one start of program.\nPlease register program.</value>
+  </data>
+  <data name="MSG_LOG_SETTINGS" xml:space="preserve">
+    <value>The list of current settings for call processing:</value>
+  </data>
+  <data name="MSG_MODEM_PORT_RESET" xml:space="preserve">
+    <value>The port of modem is resetting,</value>
+  </data>
+  <data name="MSG_MODEM_WORK_COMPLETED" xml:space="preserve">
+    <value>Work with modem is completed.</value>
+  </data>
+  <data name="MSG_NUMBER_DUPLICATED" xml:space="preserve">
+    <value>The number {0} is already present in the list and will be missed. Would you like to continue process of list load?</value>
+  </data>
+  <data name="MSG_NUMBER_INVALID_FORMAT" xml:space="preserve">
+    <value>The number {0} has invalid format and will be missed. It must have length with more than 5 chars. Would you like to continue process of list load?</value>
+  </data>
+  <data name="MSG_PROGRAM_DATA_CHANGED" xml:space="preserve">
+    <value>During work of program there were changes. Do you want to save them?</value>
+  </data>
+  <data name="MSG_REGISTRATION_SUCCESSFUL" xml:space="preserve">
+    <value>Thank you for program registration!</value>
+  </data>
+  <data name="MSG_REGISTRATION_WRONG" xml:space="preserve">
+    <value>Wrong activation key!</value>
+  </data>
+  <data name="MSG_SAVE_TITLE" xml:space="preserve">
+    <value>Saving</value>
+  </data>
+  <data name="MSG_SELECT_TEXT_FILE_EXT" xml:space="preserve">
+    <value>txt files (*.txt)|*.txt|All files (*.*)|*.*</value>
+  </data>
+  <data name="MSG_SELECT_TEXT_FILE_TITLE" xml:space="preserve">
+    <value>Select a text file</value>
+  </data>
+  <data name="MSG_SMS_NOT_SUPPORTED" xml:space="preserve">
+    <value>Modem don't support SMS sending. Uncheck sending of notifications.</value>
+  </data>
+  <data name="MSG_SYSTEM_ERROR_TITLE" xml:space="preserve">
+    <value>System error</value>
+  </data>
+  <data name="MSG_USSD_NOT_SUPPORTED" xml:space="preserve">
+    <value>Modem don't support USSD sending. Uncheck sending of notifications.</value>
+  </data>
+  <data name="MSG_WAIT_ANSWER_LIMIT" xml:space="preserve">
+    <value>Field '{0}' should store a number which is not less then {1} seconds.</value>
+  </data>
+  <data name="MSG_WAIT_CALL_LIMIT" xml:space="preserve">
+    <value>Option '{0}' should store a number which is not less then {1} seconds.</value>
+  </data>
+  <data name="MSG_WARNING_TITLE" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="MSG_WRONG_IMEI_REGISTRATION" xml:space="preserve">
+    <value>Dear {0}. You have a registration which is only for IMEI of mobile phone: {1}.</value>
+  </data>
+  <data name="STAT_SESSION_ACTIVATED_COUNT" xml:space="preserve">
+    <value>The count of found activated numbers: {0}</value>
+  </data>
+  <data name="STAT_SESSION_HEADER" xml:space="preserve">
+    <value>Session state for call:</value>
+  </data>
+  <data name="STAT_SESSION_PROCESSED_COUNT" xml:space="preserve">
+    <value>The count of processed numbers: {0}</value>
+  </data>
+  <data name="STAT_SESSION_REMAINED_COUNT" xml:space="preserve">
+    <value>The count of remained numbers: {0}</value>
+  </data>
+  <data name="STAT_SESSION_REMAINED_TIME" xml:space="preserve">
+    <value>Time: {0:D2}:{1:D2}</value>
+  </data>
+  <data name="STAT_TELEPHONE_ACTIVATED_COUNT" xml:space="preserve">
+    <value>Activated: {0}</value>
+  </data>
+  <data name="STAT_TELEPHONE_COUNT" xml:space="preserve">
+    <value>Phone count: {0}</value>
+  </data>
+  <data name="WND_ABOUT_FORM_TITLE" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="WND_CALL_SETTINGS_FORM_TITLE" xml:space="preserve">
+    <value>Call settings</value>
+  </data>
+  <data name="WND_COMMENT_FORM_TITLE" xml:space="preserve">
+    <value>Comment for phone number: {0}</value>
+  </data>
+  <data name="WND_KEY_FORM_TITLE" xml:space="preserve">
+    <value>Registration</value>
+  </data>
+  <data name="WND_MAIN_FORM_TITLE" xml:space="preserve">
+    <value>Defining of activated telephones</value>
+  </data>
+  <data name="WND_MODEM_SETTINGS_FORM_TITLE" xml:space="preserve">
+    <value>Modem settings</value>
+  </data>
+  <data name="WND_SEARCH_FORM_TITLE" xml:space="preserve">
+    <value>Find</value>
+  </data>
+</root>
